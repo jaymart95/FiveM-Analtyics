@@ -1,0 +1,5 @@
+
+*.pyc
+*.pyc
+src/vroles2/bot/__pycache__/__init__.cpython-310.pyc
+bot.log

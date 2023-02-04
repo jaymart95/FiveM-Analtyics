@@ -1,0 +1,10 @@
+{
+    "INITIAL_SETUP_NAME": "konfiguration",
+    "INITIAL_SETUP_DESCRIPTION": "ersteinrichtung.",
+    "CUSTOM_STATUS_NAME": "benutzerdefinierter Status",
+    "CUSTOM_STATUS_DESCRIPTION": "ihr benutzerdefinierter Status, nach dem der Bot in einem Mitgliederstatus suchen soll.",
+    "ROLE_NAME": "rolle",
+    "ROLE_DESCRIPTION": "die Rolle, die der Bot dem Benutzer zuweist, wenn er die Eitelkeit hinzufügt.",
+    "CHANNEL_NAME": "kanal",
+    "CHANNEL_DESCRIPTION": "der Kanal, an den der Bot die Benachrichtigung sendet"
+}
