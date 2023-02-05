@@ -9,7 +9,7 @@ disnake-jishaku==2.6.5
 disnake==2.7.0
 disnake-ext-invitetracker==0.0.2
 disnake-ext-formatter @ git+https://github.com/DisnakeCommunity/disnake-ext-formatter.git@ef8010990efcd878e2c7999f326d2d10ce7d82f7
-disnake-ext-plugins @ git+https://github.com/Chromosomologist/disnake-ext-plugins@a9b7d5483320c6228e545645e762699721b302cd
+disnake-ext-plugins @ git+https://github.com/Chromosomologist/disnake-ext-plugins@1884a871c5cf420a5ac3e0ff0874a52b279d60d2
 environs==9.5.0
 msgpack==1.0.4
 pytube==11.0.1
