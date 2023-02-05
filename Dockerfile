@@ -9,4 +9,4 @@ RUN pip install -r requirements.txt
 
 COPY src/ .
 
-CMD [ "python", "vanity2.py" ]
+CMD [ "python", "launcher.py" ]
