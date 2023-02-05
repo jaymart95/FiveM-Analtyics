@@ -110,6 +110,8 @@ async def server_stats(self, inter: disnake.ApplicationCommandInteraction, serve
     """Show statistics for servers currently being tracked."""
     await inter.response.defer(with_message=True)
     data = await db.get_server_by_name(plugin.bot, server)
+    if not data:
+        await inter.edit_original_response("This server's statistics are not being tracked, either use /add_server or /lookup")
     embed = disnake.Embed(
         title="{} Player Statistics".format(data[0]["server_name"]))
     embed.set_thumbnail(url=data[0]["img"])

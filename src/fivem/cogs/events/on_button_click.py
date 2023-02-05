@@ -21,7 +21,9 @@ async def on_button_click(inter: disnake.MessageInteraction):
         server_name = re.sub(r"[^a-zA-Z]+", "", server_name)
         await db.newServer(plugin.bot, code, server_name, data["Data"]["ownerAvatar"], data["Data"]["selfReportedClients"], data["Data"]["selfReportedClients"])
         await _cache.delete("all_servers")
-        await inter.edit_original_response(f"Server statistics are now being tracked for {server_name}.")
+        embed = inter.message.embeds[0]
+        embed.set_footer(text="Server is now being tracked.")
+        await inter.send(embed=embed)
 
     if "stats" in inter.component.custom_id:
         code = inter.component.custom_id.split(":")[1]
